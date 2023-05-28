@@ -18,7 +18,7 @@ public class ActionDemo {
 	WebDriver driver;
 	@BeforeTest
 	public void setup() {
-	 	
+	 	System.out.println("Before test method");
 	
 	}
 	
