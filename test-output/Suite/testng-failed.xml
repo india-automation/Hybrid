@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="firefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.parallelTest.CrossBrowserTesting">
+        <methods>
+          <include name="crossTesting"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.parallelTest.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

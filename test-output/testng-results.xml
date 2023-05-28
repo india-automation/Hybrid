@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71420" started-at="2023-05-18T17:33:44 IST" finished-at="2023-05-18T17:34:56 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71420" started-at="2023-05-18T17:33:44 IST" finished-at="2023-05-18T17:34:56 IST">
+      <class name="com.parallelTest.WindowHandleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.parallelTest.WindowHandleTest@2b4a2ec7]" name="setUp" is-config="true" duration-ms="53437" started-at="2023-05-18T17:33:44 IST" finished-at="2023-05-18T17:34:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="windoHnadleTest()[pri:0, instance:com.parallelTest.WindowHandleTest@2b4a2ec7]" name="windoHnadleTest" duration-ms="17930" started-at="2023-05-18T17:34:38 IST" finished-at="2023-05-18T17:34:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windoHnadleTest -->
+      </class> <!-- com.parallelTest.WindowHandleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
