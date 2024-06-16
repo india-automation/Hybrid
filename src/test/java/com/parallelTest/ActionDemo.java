@@ -19,6 +19,7 @@ public class ActionDemo {
 	@BeforeTest
 	public void setup() {
 	 	System.out.println("Before test method");
+	 	System.out.println("Commit 5");
 	
 	}
 	

@@ -10,5 +10,7 @@ public class AssertionDemo2 {
 		
 		System.out.println("inside test 1");
 		System.out.println("change 3 ");
+		System.out.println("change 4 ");
+		
 	}
 }
