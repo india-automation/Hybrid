@@ -20,7 +20,7 @@ public class ActionDemo {
 	public void setup() {
 	 	System.out.println("Before test method");
 	 	System.out.println("Commit 5");
-	
+	 	System.out.println("new changes");
 	}
 	
 	@Test
