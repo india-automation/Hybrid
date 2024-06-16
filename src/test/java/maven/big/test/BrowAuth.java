@@ -25,5 +25,6 @@ public class BrowAuth {
 		 ((HasAuthentication) driver).register(uriPredicate, UsernameAndPassword.of("admin", "admin"));
 		 driver.get("https://the-internet.herokuapp.com/basic_auth");
 		 System.out.println("new changes to commmit");
+		 System.out.println("change 2");
 	}
 }
