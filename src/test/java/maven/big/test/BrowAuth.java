@@ -24,5 +24,6 @@ public class BrowAuth {
 		 Predicate<URI> uriPredicate = uri -> uri.getHost().contains("the-internet.herokuapp.com");
 		 ((HasAuthentication) driver).register(uriPredicate, UsernameAndPassword.of("admin", "admin"));
 		 driver.get("https://the-internet.herokuapp.com/basic_auth");
+		 System.out.println("new changes to commmit");
 	}
 }
