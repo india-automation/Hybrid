@@ -26,5 +26,6 @@ public class BrowAuth {
 		 driver.get("https://the-internet.herokuapp.com/basic_auth");
 		 System.out.println("new changes to commmit");
 		 System.out.println("change 2");
+		 System.out.println("Test 4");
 	}
 }
