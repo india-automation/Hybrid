@@ -31,7 +31,7 @@ public class BrowserAuthentication {
 			      "the-internet.herokuapp.com/basic_auth";
 			      */
 			      String p="https://admin:admin@the-internet.herokuapp.com/basic_auth";
-			      
+			 	 System.out.println("1");
 			      driver.get(p);
 			      // identify text
 			      String m = driver.findElement(By.cssSelector("p")).getText();

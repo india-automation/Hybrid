@@ -38,6 +38,8 @@ public class BrowAuth {
 		 System.out.println("change 2");
 		 System.out.println("Test 4");
 		 System.err.println("Laman More");
+		 System.out.println("Test");
+		 System.out.println("1");
 		 
 	}
 }

@@ -45,7 +45,7 @@ public class ActionDemo {
 	//using action class scroll down.
     action.keyDown(Keys.CONTROL).sendKeys(Keys.END).build().perform();
     action.keyDown(Keys.CONTROL).sendKeys(Keys.HOME).build().perform();
-    
+	 System.out.println("1");
     action.contextClick(source);
     action.doubleClick(destination);
     
