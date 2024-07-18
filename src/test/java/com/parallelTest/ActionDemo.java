@@ -21,6 +21,7 @@ public class ActionDemo {
 	 	System.out.println("Before test method");
 	 	System.out.println("Commit 5");
 	 	System.out.println("new changes");
+	 	System.out.println("sddee etst");
 	}
 	
 	@Test
