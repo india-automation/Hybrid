@@ -17,7 +17,9 @@ public class DataProvideDemo {
 	
 	@DataProvider(name="datas")
 	public Object[][] setDataforLogin() {
-		
+
+		 System.out.println("1");
+		 System.out.println("3");
 		Object data[][]=new Object[1][4];
 		
 		data[0][0]="Laxman";
